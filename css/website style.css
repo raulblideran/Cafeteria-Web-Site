@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "thisFont";
+    src: url("ArgentumSans-ExtraLight.ttf");}
+    
+h2{
+    margin-top: 65px;
+    margin-bottom: 65px;
+    color: #44a9ff;
+    text-align: center;
+    font-size: 45px;
+}
+body{
+    flex: 1 0 auto;
+    font-family: 'thisFont';
+    background-color: #363636;
+}
+.navbar-dark .navbar-nav .nav-link {
+    text-align: center;
+    color: #fdd428;
+    font-family: 'thisFont';
+    font-size: 30px;
+    padding-top: 50px;
+    padding-right: 95px;
+    padding-left: 90px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #44a9ff;
+}
+button{
+    max-width: 150px;
+    color: #fdd428;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 23px;
+    font-family: 'thisFont';
+    border-style: none;
+  }
+button:hover {
+    border: none;
+    color: #44a9ff;
+    text-decoration: underline;
+  }
+.form-inline{
+    position: absolute;
+    margin-left: -1310px;
+    margin-top: 85px;
+}
+.form-inline .form-control {
+    color:#44a9ff;
+    background-color: transparent;
+    border-style: none;
+    font-size: 25px;
+    font-family: "thisFont";
+}
+.row{
+    max-width: 92%;
+    margin-left:150px ;
+}
+.card-deck{
+    max-width: 100%;
+    padding-left: 55px;
+    column-gap: 120px;
+}
+.card {
+    max-width: 250px;
+    background-color: transparent;
+    border: 0px;
+    color: #fdd428;
+    font-size: 35px;
+    padding-top: 25px;
+  }
+.card .card-img-top{
+    padding-bottom: 25px ;
+    height: 135px;
+}
+.card .card-img-top:hover{
+    cursor: pointer;
+}
+.card .card-title{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.card .card-price{
+    text-align: center;
+    color: #44a9ff;
+}
+.card .btn-success {
+    position: static;
+    border: solid;
+    border-width: thin;
+    border-color: #44a9ff;
+    color: #fdd428;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 23px;
+    font-family: 'thisFont';
+}
+.card .btn-success:hover {
+    border: solid;
+    border-width: thin;
+    border-color: #fdd428;
+    color: #44a9ff;
+  }
+.card .btn-primary {
+    position: static;
+    border: solid;
+    border-width: thin;
+    border-color: #44a9ff;
+    color: #fdd428;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 23px;
+    font-family: 'thisFont';
+}
+.card .btn-primary:hover {
+    border: solid;
+    border-width: thin;
+    border-color: #fdd428;
+    color: #44a9ff;
+  }
+.product .prodtitle{
+    margin-top: 3%;
+    margin-left: 60%;
+    font-size: 45px;
+    color: #44a9ff;
+}
+.prodImg{
+    margin-left: 15%;
+    max-width: 520px; 
+    max-height: 220px;
+    margin-top: -2%;
+}
+.product .prodPrice {
+    margin-left: 15%;
+    font-size: 35px;
+    color: #44a9ff;
+}
+.product .btn-primary {
+    border: solid;
+    border-width: thin;
+    border-color: #44a9ff;
+    color: #fdd428 !important;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    width: 520px;
+    font-size: 35px;
+    font-family: 'thisFont';
+    margin-left: 15%;
+    margin-top: -2%;
+}
+.product .btn-primary:hover {
+    border: solid;
+    border-width: thin;
+    border-color: #fdd428;
+    color: #44a9ff !important;
+  }
+.product .ingredientTitle{
+    margin-left: 60%;
+    color: #fdd428;
+    margin-top: -8%;
+    font-size: 25px;
+}
+
+.product .ingredients{
+    margin-top: -1%;
+    margin-left: 62%;
+    color: #fdd428;
+    font-size: 25px;
+}
+.product .nutritionalvalues{
+    margin-left: 60%;
+    margin-top: -5%;
+    color: #fdd428;
+    font-size: 15px;
+}
+.homeButton{
+    margin-left: 138px;
+    color: rgb(161, 161, 161);
+    font-size: 20px;
+}
+.homeButton:hover{
+    color: white;
+}
+.page-footer{
+    position: bottom;
+    margin-top: 150px;
+    background-color: rgb(20, 20, 20);
+    flex-shrink: 0;
+}
+.page-footer .text-uppercase{
+    color:rgb(206, 206, 206);
+}
+.page-footer .text-uppercase{
+    color:rgb(206, 206, 206);
+}
+.page-footer .footer-copyright{
+    color:#fdd428;;
+}
+.page-footer p{
+    color:rgb(206, 206, 206);
+    font-size: 25px;
+}
+.page-footer .list-unstyled{
+    font-size: 15px;
+}

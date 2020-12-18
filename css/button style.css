@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "thisFont";
+  src: url("ArgentumSans-ExtraLight.ttf");
+}
+.card {
+  width: 220px;
+  height: 350px;
+  max-width: 220px;
+  font-family: 'thisFont';
+  font-size: 29px;
+  color: #fdd428;
+  border:thin;
+  text-align: center;
+}
+
+.price {
+  color: #44a9ff;
+  font-size: 35px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+.card button {
+  border: solid;
+  border-width: thin;
+  border-color: #44a9ff;
+  color: #fdd428;
+  background-color: transparent;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 23px;
+  font-family: 'thisFont';
+}
+
+.card button:hover {
+  border: solid;
+  border-width: thin;
+  border-color: #fdd428;
+  color: #44a9ff;
+}
